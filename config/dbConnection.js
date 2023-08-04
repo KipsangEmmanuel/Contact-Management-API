@@ -9,7 +9,7 @@ const connectDB = async () => {
             connect.connection.name)
 
     }catch (err) {
-        console.log(err);//if there is an error, exit
+        console.log(err);//if there is an error, exit below
         process.exit(1);
     }
 };
